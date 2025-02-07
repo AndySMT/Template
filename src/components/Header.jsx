@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="grid grid-cols-3">
-      <ul>
+    <div className="">
+      <ul className="flex gap-3 justify-center">
         <li>ciao</li>
         <li>sono</li>
         <li>io</li>
