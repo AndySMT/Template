@@ -6,9 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <p className="text-3xl font-bold underline text-pink-600">
-        Tailwind bella
-      </p>
+      <p className="text-3xl font-bold underline text-pink-600">Tailwind</p>
       <Footer />
     </>
   );
