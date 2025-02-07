@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Footer() {
-  return (
-    <div className='bg-red-300'>Footer</div>
-  )
+  return <div className="bg-red-300">Footer</div>;
 }
 
-export default Footer
+export default Footer;
