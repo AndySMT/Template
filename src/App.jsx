@@ -1,13 +1,16 @@
 import { useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
 function App() {
   return (
-    <>
-      <Header />
-      <p className="text-3xl font-bold underline text-pink-600">Tailwind</p>
+    <BrowserRouter>
+      <Navbar />
+      <p className="text-3xl font-bold underline text-pink-600 flex justify-center">
+        Tailwind
+      </p>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 
